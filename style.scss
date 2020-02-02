@@ -3,7 +3,13 @@
   //   padding: 0;
 }
 
+.container {
+  max-width: 1000px;
+}
+
 .container-1 {
+  display: flex;
+
   div {
     padding: 10px;
   }
@@ -11,6 +17,7 @@
 
 .box {
   padding: 10px;
+  border: 1px solid #ccc;
 }
 
 .b1 {
